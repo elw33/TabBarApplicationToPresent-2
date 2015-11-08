@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E0F49501833E43D00192C55 /* DailyClassScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0F494F1833E43D00192C55 /* DailyClassScheduleViewController.m */; };
+		1E4C96CF182C276300EFF98A /* AssignHomeworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4C96CE182C276300EFF98A /* AssignHomeworkViewController.m */; };
+		1E67449F1831607600B9D874 /* CompareDates.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E67449E1831607600B9D874 /* CompareDates.m */; };
+		1E9B5F6D183AC270001A8224 /* Bookmarks.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E9B5F69183AC270001A8224 /* Bookmarks.png */; };
+		1E9B5F6E183AC270001A8224 /* Interface_Three_Panel.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E9B5F6A183AC270001A8224 /* Interface_Three_Panel.png */; };
+		1E9B5F6F183AC270001A8224 /* More.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E9B5F6B183AC270001A8224 /* More.png */; };
+		1E9B5F70183AC270001A8224 /* New.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E9B5F6C183AC270001A8224 /* New.png */; };
+		1E9B5F73183AC7A3001A8224 /* Today's Events.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9B5F72183AC7A3001A8224 /* Today's Events.m */; };
+		1EB70007181063B600ADFCFD /* ClassDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB70006181063B600ADFCFD /* ClassDetailViewController.m */; };
+		1EB7000A181063DF00ADFCFD /* ClassTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB70009181063DF00ADFCFD /* ClassTable.m */; };
+		1EB7000D1810643400ADFCFD /* ClassBlockCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB7000C1810643400ADFCFD /* ClassBlockCell.m */; };
+		1EB700101810684300ADFCFD /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB7000F1810684300ADFCFD /* AboutViewController.m */; };
+		1EB70013181068F600ADFCFD /* CurrentScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB70012181068F600ADFCFD /* CurrentScheduleViewController.m */; };
 		1EB7FFBC18105FE800ADFCFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB7FFBB18105FE800ADFCFD /* UIKit.framework */; };
 		1EB7FFBE18105FE800ADFCFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB7FFBD18105FE800ADFCFD /* Foundation.framework */; };
 		1EB7FFC018105FE800ADFCFD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB7FFBF18105FE800ADFCFD /* CoreGraphics.framework */; };
@@ -17,12 +30,12 @@
 		1EB7FFD018105FE800ADFCFD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EB7FFCF18105FE800ADFCFD /* Default@2x.png */; };
 		1EB7FFD218105FE800ADFCFD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EB7FFD118105FE800ADFCFD /* Default-568h@2x.png */; };
 		1EB7FFD518105FE800ADFCFD /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EB7FFD318105FE800ADFCFD /* MainStoryboard.storyboard */; };
-		1EB7FFD818105FE800ADFCFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB7FFD718105FE800ADFCFD /* ViewController.m */; };
 		1EB7FFE018105FE800ADFCFD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB7FFDF18105FE800ADFCFD /* SenTestingKit.framework */; };
 		1EB7FFE118105FE800ADFCFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB7FFBB18105FE800ADFCFD /* UIKit.framework */; };
 		1EB7FFE218105FE800ADFCFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB7FFBD18105FE800ADFCFD /* Foundation.framework */; };
 		1EB7FFEA18105FE800ADFCFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1EB7FFE818105FE800ADFCFD /* InfoPlist.strings */; };
 		1EB7FFED18105FE800ADFCFD /* TabBarApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB7FFEC18105FE800ADFCFD /* TabBarApplicationTests.m */; };
+		458C5D93183D8EAB003383D9 /* popViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 458C5D92183D8EAB003383D9 /* popViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +49,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E0F494E1833E43D00192C55 /* DailyClassScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailyClassScheduleViewController.h; sourceTree = "<group>"; };
+		1E0F494F1833E43D00192C55 /* DailyClassScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyClassScheduleViewController.m; sourceTree = "<group>"; };
+		1E4C96CD182C276300EFF98A /* AssignHomeworkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssignHomeworkViewController.h; sourceTree = "<group>"; };
+		1E4C96CE182C276300EFF98A /* AssignHomeworkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssignHomeworkViewController.m; sourceTree = "<group>"; };
+		1E67449D1831607600B9D874 /* CompareDates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompareDates.h; sourceTree = "<group>"; };
+		1E67449E1831607600B9D874 /* CompareDates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompareDates.m; sourceTree = "<group>"; };
+		1E9B5F69183AC270001A8224 /* Bookmarks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bookmarks.png; sourceTree = "<group>"; };
+		1E9B5F6A183AC270001A8224 /* Interface_Three_Panel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Interface_Three_Panel.png; sourceTree = "<group>"; };
+		1E9B5F6B183AC270001A8224 /* More.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = More.png; sourceTree = "<group>"; };
+		1E9B5F6C183AC270001A8224 /* New.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = New.png; sourceTree = "<group>"; };
+		1E9B5F71183AC7A3001A8224 /* Today's Events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Today's Events.h"; sourceTree = "<group>"; };
+		1E9B5F72183AC7A3001A8224 /* Today's Events.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Today's Events.m"; sourceTree = "<group>"; };
+		1EB70005181063B600ADFCFD /* ClassDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassDetailViewController.h; sourceTree = "<group>"; };
+		1EB70006181063B600ADFCFD /* ClassDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassDetailViewController.m; sourceTree = "<group>"; };
+		1EB70008181063DF00ADFCFD /* ClassTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassTable.h; sourceTree = "<group>"; };
+		1EB70009181063DF00ADFCFD /* ClassTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassTable.m; sourceTree = "<group>"; };
+		1EB7000B1810643400ADFCFD /* ClassBlockCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassBlockCell.h; sourceTree = "<group>"; };
+		1EB7000C1810643400ADFCFD /* ClassBlockCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassBlockCell.m; sourceTree = "<group>"; };
+		1EB7000E1810684300ADFCFD /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		1EB7000F1810684300ADFCFD /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		1EB70011181068F500ADFCFD /* CurrentScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentScheduleViewController.h; sourceTree = "<group>"; };
+		1EB70012181068F600ADFCFD /* CurrentScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentScheduleViewController.m; sourceTree = "<group>"; };
 		1EB7FFB818105FE800ADFCFD /* TabBarApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EB7FFBB18105FE800ADFCFD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1EB7FFBD18105FE800ADFCFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -50,14 +85,14 @@
 		1EB7FFCF18105FE800ADFCFD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1EB7FFD118105FE800ADFCFD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1EB7FFD418105FE800ADFCFD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		1EB7FFD618105FE800ADFCFD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1EB7FFD718105FE800ADFCFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1EB7FFDE18105FE800ADFCFD /* TabBarApplicationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarApplicationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EB7FFDF18105FE800ADFCFD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		1EB7FFE718105FE800ADFCFD /* TabBarApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TabBarApplicationTests-Info.plist"; sourceTree = "<group>"; };
 		1EB7FFE918105FE800ADFCFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1EB7FFEB18105FE800ADFCFD /* TabBarApplicationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarApplicationTests.h; sourceTree = "<group>"; };
 		1EB7FFEC18105FE800ADFCFD /* TabBarApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarApplicationTests.m; sourceTree = "<group>"; };
+		458C5D91183D8EAB003383D9 /* popViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = popViewController.h; sourceTree = "<group>"; };
+		458C5D92183D8EAB003383D9 /* popViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = popViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,8 +155,26 @@
 				1EB7FFCA18105FE800ADFCFD /* AppDelegate.h */,
 				1EB7FFCB18105FE800ADFCFD /* AppDelegate.m */,
 				1EB7FFD318105FE800ADFCFD /* MainStoryboard.storyboard */,
-				1EB7FFD618105FE800ADFCFD /* ViewController.h */,
-				1EB7FFD718105FE800ADFCFD /* ViewController.m */,
+				1EB70005181063B600ADFCFD /* ClassDetailViewController.h */,
+				1EB70006181063B600ADFCFD /* ClassDetailViewController.m */,
+				1EB70008181063DF00ADFCFD /* ClassTable.h */,
+				1EB70009181063DF00ADFCFD /* ClassTable.m */,
+				1EB7000B1810643400ADFCFD /* ClassBlockCell.h */,
+				1EB7000C1810643400ADFCFD /* ClassBlockCell.m */,
+				1EB7000E1810684300ADFCFD /* AboutViewController.h */,
+				1EB7000F1810684300ADFCFD /* AboutViewController.m */,
+				1EB70011181068F500ADFCFD /* CurrentScheduleViewController.h */,
+				1EB70012181068F600ADFCFD /* CurrentScheduleViewController.m */,
+				1E4C96CD182C276300EFF98A /* AssignHomeworkViewController.h */,
+				1E4C96CE182C276300EFF98A /* AssignHomeworkViewController.m */,
+				1E67449D1831607600B9D874 /* CompareDates.h */,
+				1E67449E1831607600B9D874 /* CompareDates.m */,
+				1E0F494E1833E43D00192C55 /* DailyClassScheduleViewController.h */,
+				1E0F494F1833E43D00192C55 /* DailyClassScheduleViewController.m */,
+				1E9B5F71183AC7A3001A8224 /* Today's Events.h */,
+				1E9B5F72183AC7A3001A8224 /* Today's Events.m */,
+				458C5D91183D8EAB003383D9 /* popViewController.h */,
+				458C5D92183D8EAB003383D9 /* popViewController.m */,
 				1EB7FFC218105FE800ADFCFD /* Supporting Files */,
 			);
 			path = TabBarApplication;
@@ -137,6 +190,10 @@
 				1EB7FFCD18105FE800ADFCFD /* Default.png */,
 				1EB7FFCF18105FE800ADFCFD /* Default@2x.png */,
 				1EB7FFD118105FE800ADFCFD /* Default-568h@2x.png */,
+				1E9B5F69183AC270001A8224 /* Bookmarks.png */,
+				1E9B5F6A183AC270001A8224 /* Interface_Three_Panel.png */,
+				1E9B5F6B183AC270001A8224 /* More.png */,
+				1E9B5F6C183AC270001A8224 /* New.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -208,7 +265,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = IOSstudent;
 			};
-			buildConfigurationList = 1EB7FFB318105FE800ADFCFD /* Build configuration list for PBXProject "TabBarApplication" */;
+			buildConfigurationList = 1EB7FFB318105FE800ADFCFD /* Build configuration list for PBXProject "TabBarApplicationToPresent" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -233,8 +290,12 @@
 			files = (
 				1EB7FFC618105FE800ADFCFD /* InfoPlist.strings in Resources */,
 				1EB7FFCE18105FE800ADFCFD /* Default.png in Resources */,
+				1E9B5F6E183AC270001A8224 /* Interface_Three_Panel.png in Resources */,
 				1EB7FFD018105FE800ADFCFD /* Default@2x.png in Resources */,
+				1E9B5F6D183AC270001A8224 /* Bookmarks.png in Resources */,
 				1EB7FFD218105FE800ADFCFD /* Default-568h@2x.png in Resources */,
+				1E9B5F70183AC270001A8224 /* New.png in Resources */,
+				1E9B5F6F183AC270001A8224 /* More.png in Resources */,
 				1EB7FFD518105FE800ADFCFD /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,7 +333,16 @@
 			files = (
 				1EB7FFC818105FE800ADFCFD /* main.m in Sources */,
 				1EB7FFCC18105FE800ADFCFD /* AppDelegate.m in Sources */,
-				1EB7FFD818105FE800ADFCFD /* ViewController.m in Sources */,
+				1E0F49501833E43D00192C55 /* DailyClassScheduleViewController.m in Sources */,
+				1EB70007181063B600ADFCFD /* ClassDetailViewController.m in Sources */,
+				1E67449F1831607600B9D874 /* CompareDates.m in Sources */,
+				1EB7000A181063DF00ADFCFD /* ClassTable.m in Sources */,
+				1E9B5F73183AC7A3001A8224 /* Today's Events.m in Sources */,
+				1EB7000D1810643400ADFCFD /* ClassBlockCell.m in Sources */,
+				458C5D93183D8EAB003383D9 /* popViewController.m in Sources */,
+				1EB700101810684300ADFCFD /* AboutViewController.m in Sources */,
+				1EB70013181068F600ADFCFD /* CurrentScheduleViewController.m in Sources */,
+				1E4C96CF182C276300EFF98A /* AssignHomeworkViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +507,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1EB7FFB318105FE800ADFCFD /* Build configuration list for PBXProject "TabBarApplication" */ = {
+		1EB7FFB318105FE800ADFCFD /* Build configuration list for PBXProject "TabBarApplicationToPresent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1EB7FFEE18105FE800ADFCFD /* Debug */,
@@ -453,6 +523,7 @@
 				1EB7FFF218105FE800ADFCFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1EB7FFF318105FE800ADFCFD /* Build configuration list for PBXNativeTarget "TabBarApplicationTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +532,7 @@
 				1EB7FFF518105FE800ADFCFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

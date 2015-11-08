@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AboutViewController.h
 //  TabBarApplication
 //
 //  Created by IOSstudent on 10/17/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface AboutViewController : UITableViewController
 
 @end
