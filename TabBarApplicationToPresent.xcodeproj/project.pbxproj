@@ -254,7 +254,7 @@
 			name = TabBarApplicationTests;
 			productName = TabBarApplicationTests;
 			productReference = 1EB7FFDE18105FE800ADFCFD /* TabBarApplicationTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -262,6 +262,7 @@
 		1EB7FFB018105FE800ADFCFD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastTestingUpgradeCheck = 0710;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = IOSstudent;
 			};

@@ -73,7 +73,7 @@
         
         NSIndexPath *myIndexPath = [self.tableView indexPathForSelectedRow];
         
-        int row = [myIndexPath row];
+        NSInteger row = [myIndexPath row];
         
         //detailViewController.periodletterlabel = @[periodletterlabel[row]];
         [detailViewController setPassedStr:periodletterlabel[row]];
@@ -108,7 +108,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    int row = [indexPath row];
+    NSInteger row = [indexPath row];
     NSUserDefaults *classDefaults = [NSUserDefaults standardUserDefaults];
     NSMutableString *className = [[NSMutableString alloc]initWithString:@"ClassName_"];
     NSUserDefaults *teacherDefaults = [NSUserDefaults standardUserDefaults];
